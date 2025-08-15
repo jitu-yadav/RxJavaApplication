@@ -13,3 +13,21 @@ Composable – Combine multiple asynchronous operations seamlessly.
 Thread Management – Effortlessly switch between background and main threads.
 
 Error Handling – Built-in operators for managing errors.
+
+Best Practices
+
+Always manage Disposables (e.g., CompositeDisposable in Android).
+
+Keep transformations pure (no side effects in operators).
+
+Avoid doing heavy work on the main thread.
+
+Use the right Scheduler for the job.
+
+🔗 Useful Links
+
+RxJava GitHub (https://github.com/ReactiveX/RxJava)
+
+ReactiveX Documentation (http://reactivex.io/documentation/observable.html)
+
+RxJava Wiki (https://github.com/ReactiveX/RxJava/wiki)
